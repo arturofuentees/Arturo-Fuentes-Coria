@@ -98,7 +98,25 @@
       .hero-copy,.panel,.photo-card,.contact-card,.kpi-card{padding:var(--space-5)}
       .controls{width:100%}
       .control-btn,.lang-btn{flex:1}
+    .whatsapp-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-2) var(--space-4);
+    background-color: #25D366;
+    color: #ffffff !important;
+    border-radius: var(--radius-full);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    text-decoration: none;
+    transition: background var(--transition);
+    width: fit-content;
+  }
+
+  .whatsapp-btn:hover {
+    background-color: #1ebe5d;
     }
+      
   </style>
 </head>
 <body>
@@ -153,6 +171,16 @@
             <div class="section-title" data-i18n="contactTitle">Contacto</div>
             <div class="contact-list">
               <a href="tel:+525586399463">+52 55 86 399 463</a>
+                <a href="https://wa.me/525586399463?text=Hola%20Arturo%2C%20vi%20tu%20CV%20y%20me%20interesa%20contactarte."
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-btn">
+    💬 WhatsApp
+  </a>
+
+  <a href="mailto:arturofci@cloud.com">arturofci@cloud.com</a>
+  ...
+</div>
               <a href="mailto:arturofc@icloud.com">arturofc@icloud.com</a>
               <a href="https://linkedin.com/in/arturofc" target="_blank" rel="noopener noreferrer">linkedin.com/in/arturofc</a>
               <a href="https://www.credly.com/users/arturofuentes" target="_blank" rel="noopener noreferrer">credly.com/users/arturofuentes</a>
